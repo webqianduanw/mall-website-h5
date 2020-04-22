@@ -1,0 +1,41 @@
+.mask{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,.7);
+  .box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    margin-top: vw(-180);
+    background: #fff;
+    border-radius: vw(10);
+  }
+  .marginTop{
+    margin-top: 0;
+  }
+  .btn{
+    input{
+      display: block;
+      width: vw(480);
+      height: vw(92);
+      margin: vw(45) auto 0;
+      font-size: vw(30);
+      color: #131000;
+      border-radius: vw(10);
+      background: #FCDD07;
+    }
+  }
+  .close{
+    width: vw(58);
+    height: vw(58);
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: vw(-100);
+    transform: translate3d(-50%, 0, 0);
+  }
+}

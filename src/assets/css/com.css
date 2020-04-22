@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td { margin:0; padding:0; word-break: break-all;}
+body { font-size:14px; color:#2b2b2b; background:#fff;font-family:"Microsoft YaHei","微软雅黑","华文细黑",Helvetica;}
+fieldset, img { border:0;display:inline-block;}
+ol, ul{ list-style:none; }
+.rich_text ol,.rich_text ul { list-style:disc; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+em { font-style:normal; }
+input, button, select, textarea { outline:none; border:0; }
+textarea { resize:none; }
+a { color: #333333; text-decoration:none; }
+a:hover { color: #FF7E05; text-decoration:none; }
+.clearfix:after{
+	content:"";
+	visibility:hidden;
+	height:0;
+	display:block;
+	clear:both;
+}
+.clearfix{zoom:1;}
+
+.fleft{float: left;}
+.fright{float: right;}
+
+.positionR{
+	position: relative;
+}
+.positionA{
+	position: absolute;
+}
+.positionF{
+	position: fixed;
+}
+
+.tleft{text-align: left;}
+.tcenter{text-align: center;}
+.tright{text-align: right;}
+
+.mauto{margin: 0 auto;}
+
+.cursor{
+	cursor: pointer;
+}
+
+.disInline{
+	display: inline-block;
+}
+.disBlock{
+	display: block;
+}
+.disNone{
+	display: none;
+}
+.c_account_item .disNone{
+    padding: 16px 10px 16px 20px;
+    border: 1px solid #ececec;
+}
+.borRadius{
+	border-radius: 5px;
+}
+.borNone{
+	border: 0!important;
+}
+/*最小宽度*/
+.wm{
+	width:100%;
+	min-width:1200px;
+	margin:0px auto;
+}
+/*版心宽度*/
+.w1200{
+	width:1200px;
+	margin:0px auto;
+}
+.w{
+	width:100%;
+	margin:0px auto;
+}
