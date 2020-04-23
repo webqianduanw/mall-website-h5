@@ -575,7 +575,7 @@ body{
       width: 524px;
       .content13_cont_left_txt1{
         height: 113px;
-        background: rgba(220,55,49,1);
+        // background: rgba(220,55,49,1);
         overflow: hidden;
         img{
           width: 75px;
@@ -591,7 +591,7 @@ body{
             font-size: 26px;
             font-family: Adobe Heiti Std;
             font-weight: normal;
-            color: rgba(255,255,255,1);
+            color: #dc3731;
           }
         }
       }
