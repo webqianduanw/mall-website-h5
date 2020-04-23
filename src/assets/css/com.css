@@ -10,7 +10,7 @@ em { font-style:normal; }
 input, button, select, textarea { outline:none; border:0; }
 textarea { resize:none; }
 a { color: #333333; text-decoration:none; }
-a:hover { color: #FF7E05; text-decoration:none; }
+a:hover { color: #FF0000; text-decoration:none; }
 .clearfix:after{
 	content:"";
 	visibility:hidden;

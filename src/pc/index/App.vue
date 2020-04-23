@@ -20,7 +20,7 @@
           <div class="app-name fleft">亿呗购</div>
         </div>
         <div class="fright header-box-right">
-          <div class="fleft download" @mouseenter="mouseover" @mouseleave="mouseLeave">
+          <div class="fleft download" @mouseenter="mouseover" @mouseleave="mouseLeave" @click="goTop">
             <a href="javascript:;">下载App</a>
             <img class="ewmcode positionA" ref="ewmcode" style="display:none;" src="../../assets/img/ewmcode.png" alt="">
           </div>
@@ -52,10 +52,23 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="../../assets/img/about/bg.png" alt="">
+                  <img src="../../assets/img/index/swiper1.jpg" alt="">
                 </div>
-                <div class="swiper-slide"><img src="../../assets/img/about/bg.png" alt=""></div>
-                <div class="swiper-slide"><img src="../../assets/img/about/bg.png" alt=""></div>
+                <div class="swiper-slide">
+                  <img src="../../assets/img/index/swiper2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="../../assets/img/index/swiper3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="../../assets/img/index/swiper4.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="../../assets/img/index/swiper5.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="../../assets/img/index/swiper6.jpg" alt="">
+                </div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -91,8 +104,8 @@
             </div>
           </div>
           <div class="content5_cont_right fleft clearfix">
-            <img class="fleft" src="../../assets/img/index/logo.png" alt="">
-            <img class="fleft" src="../../assets/img/index/logo.png" alt="">
+            <img class="fleft" src="../../assets/img/index/content5_txt1.png" alt="">
+            <img class="fleft" src="../../assets/img/index/content5_txt2.png" alt="">
           </div>
         </div>
       </div>
@@ -126,7 +139,7 @@
       <div class="content9">
         <div class="content9_cont clearfix">
           <div class="content9_cont_left fleft">
-            <img src="../../assets/img/index/logo.png" alt="">
+            <img src="../../assets/img/index/content9_txt1.png" alt="">
           </div>
           <div class="content9_cont_right fleft clearfix">
             <div class="content9_cont_right_txt1 fleft">
@@ -247,11 +260,15 @@ export default {
                 window.location.href="/pc/aboutUs.html";
             }
         },
+        goTop(){
+           var sc=$(window).scrollTop();
+            $('body,html').animate({scrollTop:0},500);
+        },
         mouseover() {
-            this.$refs.ewmcode.style.display = 'block';
+            // this.$refs.ewmcode.style.display = 'block';
         },
         mouseLeave() {
-            this.$refs.ewmcode.style.display = 'none';
+            // this.$refs.ewmcode.style.display = 'none';
         }
     },
     created() {
