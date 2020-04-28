@@ -3,12 +3,12 @@
     <div class="header" ref="header" style="display:none;">
       <div class="header-box clearfix">
         <div class="fleft header-box-left" @click="jumpClick(1)">
-          <div class="img fleft"><img src="../../assets/img/index/logo.png" alt=""></div>
+          <div class="img fleft"><img src="../assets/img/index/logo.png" alt=""></div>
           <div class="app-name fleft">亿呗购</div>
         </div>
         <div class="fright header-box-right">
           <div class="fleft download positionR">
-            <img class="ewmcode positionA" src="../../assets/img/ewmcode.png" alt="">
+            <img class="ewmcode positionA" src="../assets/img/ewmcode.png" alt="">
           </div>
         </div>
       </div>
@@ -16,13 +16,13 @@
     <div class="header">
       <div class="header-box clearfix">
         <div class="fleft header-box-left">
-          <div class="img fleft"><img src="../../assets/img/index/logo.png" alt=""></div>
-          <div class="app-name fleft">券利集合</div>
+          <div class="img fleft"><img src="../assets/img/index/logo.png" alt=""></div>
+          <div class="app-name fleft">券利集盒</div>
         </div>
         <div class="fright header-box-right">
           <div class="fleft download" @mouseenter="mouseover" @mouseleave="mouseLeave" @click="goTop">
             <a href="javascript:;">下载App</a>
-            <img class="ewmcode positionA" ref="ewmcode" style="display:none;" src="../../assets/img/ewmcode.png" alt="">
+            <img class="ewmcode positionA" ref="ewmcode" style="display:none;" src="../assets/img/ewmcode.png" alt="">
           </div>
           <div class="fleft about">
             招商电话：4000225592
@@ -32,10 +32,10 @@
     </div>
     <div class="content w">
       <div class="content1">
-        <img src="../../assets/img/index/index1_bg1.png" alt="">
+        <img src="../assets/img/index/index1_bg1.png" alt="">
       </div>
       <div class="content2 positionR">
-        <img class="content2_txt1 positionA" src="../../assets/img/index/index1_txt1.png" alt="">
+        <img class="content2_txt1 positionA" src="../assets/img/index/index1_txt1.png" alt="">
         <div class="content2_txt2 positionA">
           海量商品
         </div>
@@ -52,29 +52,29 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="../../assets/img/index/swiper1.jpg" alt="">
+                  <img src="../assets/img/index/swiper1.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../../assets/img/index/swiper2.jpg" alt="">
+                  <img src="../assets/img/index/swiper2.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../../assets/img/index/swiper3.jpg" alt="">
+                  <img src="../assets/img/index/swiper3.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../../assets/img/index/swiper4.jpg" alt="">
+                  <img src="../assets/img/index/swiper4.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../../assets/img/index/swiper5.jpg" alt="">
+                  <img src="../assets/img/index/swiper5.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../../assets/img/index/swiper6.jpg" alt="">
+                  <img src="../assets/img/index/swiper6.jpg" alt="">
                 </div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
       </div>
       <div class="content4 content2 positionR">
-        <img class="content2_txt1 positionA" src="../../assets/img/index/index1_txt2.png" alt="">
+        <img class="content2_txt1 positionA" src="../assets/img/index/index1_txt2.png" alt="">
         <div class="content2_txt2 positionA">
           严选好货
         </div>
@@ -104,13 +104,13 @@
             </div>
           </div>
           <div class="content5_cont_right fleft clearfix">
-            <img class="fleft" src="../../assets/img/index/content5_txt1.png" alt="">
-            <img class="fleft" src="../../assets/img/index/content5_txt2.png" alt="">
+            <img class="fleft" src="../assets/img/index/content5_txt1.png" alt="">
+            <img class="fleft" src="../assets/img/index/content5_txt2.png" alt="">
           </div>
         </div>
       </div>
       <div class="content6 content2 positionR">
-        <img class="content2_txt1 positionA" src="../../assets/img/index/index1_txt3.png" alt="">
+        <img class="content2_txt1 positionA" src="../assets/img/index/index1_txt3.png" alt="">
         <div class="content2_txt2 positionA">
           巨额优惠
         </div>
@@ -122,10 +122,10 @@
         </div>
       </div>
       <div class="content7">
-        <img src="../../assets/img/index/content7.png" alt="">
+        <img src="../assets/img/index/content7.png" alt="">
       </div>
       <div class="content8 content2 positionR">
-        <img class="content2_txt1 positionA" src="../../assets/img/index/index1_txt4.png" alt="">
+        <img class="content2_txt1 positionA" src="../assets/img/index/index1_txt4.png" alt="">
         <div class="content2_txt2 positionA">
           专业服务
         </div>
@@ -139,7 +139,7 @@
       <div class="content9">
         <div class="content9_cont clearfix">
           <div class="content9_cont_left fleft">
-            <img src="../../assets/img/index/content9_txt1.png" alt="">
+            <img src="../assets/img/index/content9_txt1.png" alt="">
           </div>
           <div class="content9_cont_right fleft clearfix">
             <div class="content9_cont_right_txt1 fleft">
@@ -159,7 +159,7 @@
         </div>
       </div>
       <div class="content10 content2 positionR">
-        <img class="content2_txt1 positionA" src="../../assets/img/index/index1_txt5.png" alt="">
+        <img class="content2_txt1 positionA" src="../assets/img/index/index1_txt5.png" alt="">
         <div class="content2_txt2 positionA">
           极致体验
         </div>
@@ -171,10 +171,10 @@
         </div>
       </div>
       <div class="content11">
-        <img src="../../assets/img/index/content11.png" alt="">
+        <img src="../assets/img/index/content11.png" alt="">
       </div>
       <div class="content12 content2 positionR">
-        <img class="content2_txt1 positionA" src="../../assets/img/index/index1_txt6.png" alt="">
+        <img class="content2_txt1 positionA" src="../assets/img/index/index1_txt6.png" alt="">
         <div class="content2_txt2 positionA">
           关于我们
         </div>
@@ -189,28 +189,28 @@
         <div class="content13_cont clearfix">
           <div class="content13_cont_left fleft">
             <div class="content13_cont_left_txt1 clearfix">
-              <img class="fleft" src="../../assets/img/index/logo.png" alt="">
+              <img class="fleft" src="../assets/img/index/logo.png" alt="">
               <div class="content13_cont_left_txt1_p fleft">
                 <p>券利集盒</p>
                 <p>太和县品亚商贸有限公司</p>
               </div>
             </div>
             <div class="content13_cont_left_txt2 clearfix">
-              <img class="fleft" src="../../assets/img/index/tel1.png" alt="">
+              <img class="fleft" src="../assets/img/index/tel1.png" alt="">
               <div class="content13_cont_left_txt2_p fleft">
                   <p>E-mail ：zhaoshang@quanlijihe.com</p>
                   <p>客服电话 ：4000225592</p>
               </div>
             </div>
             <div class="content13_cont_left_txt3 clearfix">
-              <img class="fleft" src="../../assets/img/index/tel2.png" alt="">
+              <img class="fleft" src="../assets/img/index/tel2.png" alt="">
               <div class="content13_cont_left_txt3_p fleft">
                 <p>安徽省</p>
                 <p>安徽省阜阳市太和县城关镇白马环球港7号楼1101号楼</p>
               </div>
             </div>
             <div class="content13_cont_left_txt4 clearfix">
-              <img class="fleft" src="../../assets/img/index/tel3.png" alt="">
+              <img class="fleft" src="../assets/img/index/tel3.png" alt="">
               <div class="content13_cont_left_txt4_p fleft">
                 <p>工作时间</p>
                 <p>工作日：9：00-22：00</p>
@@ -219,7 +219,7 @@
             </div>
           </div>
           <div class="content13_cont_right fleft">
-            <img src="../../assets/img/index/map.png" alt="">
+            <img src="../assets/img/index/map.png" alt="">
           </div>
         </div>
       </div>
@@ -227,7 +227,7 @@
     <div class="footer">
       <div class="footer_cont">
         <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">皖ICP备20007193号</a>
-              www.quanlijihe.com @ 2018-2020 杭州券利集盒版权所有
+              www.quanlijihe.com @ 2018-2020 券利集盒版权所有
       </div>
     </div>
   </div>
@@ -237,8 +237,8 @@
 // import moduleName from 'module'
 import $ from 'jquery';
 // import Swiper from 'swiper';
-import Swiper from '../../../node_modules/swiper/dist/js/swiper.min';
-import '../../../node_modules/swiper/dist/css/swiper.min.css';
+import Swiper from '../../node_modules/swiper/dist/js/swiper.min';
+import '../../node_modules/swiper/dist/css/swiper.min.css';
 
 export default {
     name: '',
@@ -683,6 +683,9 @@ body{
         font-family:Microsoft YaHei;
         font-weight:400;
         color:rgba(102,102,102,1);
+        &:hover{
+          color: #ff4715;
+        }
       }
     }
   }
