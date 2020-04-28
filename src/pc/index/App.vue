@@ -17,7 +17,7 @@
       <div class="header-box clearfix">
         <div class="fleft header-box-left">
           <div class="img fleft"><img src="../../assets/img/index/logo.png" alt=""></div>
-          <div class="app-name fleft">亿呗购</div>
+          <div class="app-name fleft">券利集合</div>
         </div>
         <div class="fright header-box-right">
           <div class="fleft download" @mouseenter="mouseover" @mouseleave="mouseLeave" @click="goTop">
@@ -226,7 +226,7 @@
     </div>
     <div class="footer">
       <div class="footer_cont">
-        <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">浙ICP备20002460号-1</a>
+        <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">皖ICP备20007193号</a>
               www.quanlijihe.com @ 2018-2020 杭州券利集盒版权所有
       </div>
     </div>
