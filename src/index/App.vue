@@ -4,7 +4,7 @@
       <div class="header-box clearfix">
         <div class="fleft header-box-left" @click="jumpClick(1)">
           <div class="img fleft"><img src="../assets/img/index/logo.png" alt=""></div>
-          <div class="app-name fleft">亿呗购</div>
+          <div class="app-name fleft">券利集盒</div>
         </div>
         <div class="fright header-box-right">
           <div class="fleft download positionR">
