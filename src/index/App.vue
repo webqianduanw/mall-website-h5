@@ -192,7 +192,7 @@
               <img class="fleft" src="../assets/img/index/logo.png" alt="">
               <div class="content13_cont_left_txt1_p fleft">
                 <p>券利集盒</p>
-                <p>太和县品亚商贸有限公司</p>
+                <p>太和县泽昂网络科技有限公司</p>
               </div>
             </div>
             <div class="content13_cont_left_txt2 clearfix">
@@ -206,7 +206,7 @@
               <img class="fleft" src="../assets/img/index/tel2.png" alt="">
               <div class="content13_cont_left_txt3_p fleft">
                 <p>安徽省</p>
-                <p>安徽省阜阳市太和县城关镇白马环球港7号楼1101号楼</p>
+                <p>阜阳市太和县城关镇富民家园9号楼603室</p>
               </div>
             </div>
             <div class="content13_cont_left_txt4 clearfix">
@@ -329,9 +329,9 @@ body{
     .app-name{
       height: 100%;
       line-height: 100px;
-      font-size:27px;
+      font-size:18px;
       font-weight:bold;
-      color:rgba(255,71,21,1);
+      color:#DC3731;
       margin-left: 15px;
     }
 
@@ -589,9 +589,8 @@ body{
           p{
             height: 25px;
             font-size: 26px;
-            font-family: Adobe Heiti Std;
             font-weight: normal;
-            color: #dc3731;
+            color: #333333;
           }
         }
       }
