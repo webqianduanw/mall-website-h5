@@ -591,6 +591,7 @@ body{
             font-size: 26px;
             font-weight: normal;
             color: #333333;
+            padding-top: 5px;
           }
         }
       }
