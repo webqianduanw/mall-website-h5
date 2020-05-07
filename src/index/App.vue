@@ -589,9 +589,9 @@ body{
           p{
             height: 25px;
             font-size: 26px;
-            font-family: Adobe Heiti Std;
             font-weight: normal;
-            color: #dc3731;
+            color: #333333;
+            padding-top: 5px;
           }
         }
       }
