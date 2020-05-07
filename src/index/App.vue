@@ -331,7 +331,7 @@ body{
       line-height: 100px;
       font-size:27px;
       font-weight:bold;
-      color:rgba(255,71,21,1);
+      color:#DC3731;
       margin-left: 15px;
     }
 
