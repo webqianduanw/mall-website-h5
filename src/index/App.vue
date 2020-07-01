@@ -206,7 +206,7 @@
               <img class="fleft" src="../assets/img/index/tel2.png" alt="">
               <div class="content13_cont_left_txt3_p fleft">
                 <p>安徽省</p>
-                <p>阜阳市太和县城关镇富民家园9号楼603室</p>
+                <p>太和县城关镇沙河中路38号门面4号</p>
               </div>
             </div>
             <div class="content13_cont_left_txt4 clearfix">
