@@ -206,7 +206,7 @@
               <img class="fleft" src="../assets/img/index/tel2.png" alt="">
               <div class="content13_cont_left_txt3_p fleft">
                 <p>安徽省</p>
-                <p>太和县城关镇沙河中路38号门面4号</p>
+                <p>安徽省阜阳市太和县旧县镇大通路安徽大汇青创工坊107铺</p>
               </div>
             </div>
             <div class="content13_cont_left_txt4 clearfix">
