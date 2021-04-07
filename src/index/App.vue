@@ -4,7 +4,7 @@
       <div class="header-box clearfix">
         <div class="fleft header-box-left" @click="jumpClick(1)">
           <div class="img fleft"><img src="../assets/img/index/logo.png" alt=""></div>
-          <div class="app-name fleft">券利集盒</div>
+          <div class="app-name fleft">吉利商城</div>
         </div>
         <div class="fright header-box-right">
           <div class="fleft download positionR">
@@ -17,16 +17,16 @@
       <div class="header-box clearfix">
         <div class="fleft header-box-left">
           <div class="img fleft"><img src="../assets/img/index/logo.png" alt=""></div>
-          <div class="app-name fleft">券利集盒</div>
+          <div class="app-name fleft">吉利商城</div>
         </div>
         <div class="fright header-box-right">
           <div class="fleft download" @mouseenter="mouseover" @mouseleave="mouseLeave" @click="goTop">
             <a href="javascript:;">下载App</a>
             <img class="ewmcode positionA" ref="ewmcode" style="display:none;" src="../assets/img/ewmcode.png" alt="">
           </div>
-          <div class="fleft about">
+          <!-- <div class="fleft about">
             招商电话：4000225592
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -37,15 +37,13 @@
       <div class="content2 positionR">
         <img class="content2_txt1 positionA" src="../assets/img/index/index1_txt1.png" alt="">
         <div class="content2_txt2 positionA">
-          海量商品
+          海量电器
         </div>
         <div class="content2_txt3 positionA">
-          平台商品涵盖日用百货、美食、美妆护肤、母婴童装、家用电器、钟表珠宝、3C数码等平台精选好货。
+          平台商品涵盖厨房家电、个护家电、3C数码等平台精选好货。
         </div>
         <div class="content2_txt4 positionA">
-          <p>The products on the platform include selected good products on the platforms such as daily necessities, food, </p>
-          <p>beauty makeup and skin care, maternal and child clothing, household appliances, watches </p>
-          <p>and jewelry, 3C digital products, etc.</p>
+          <p>TPlatform products include kitchen appliances, personal care appliances, 3C digital and other platform selected good products.</p>
         </div>
       </div>
       <div class="content3">
@@ -56,18 +54,6 @@
                 </div>
                 <div class="swiper-slide">
                   <img src="../assets/img/index/swiper2.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                  <img src="../assets/img/index/swiper3.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                  <img src="../assets/img/index/swiper4.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                  <img src="../assets/img/index/swiper5.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                  <img src="../assets/img/index/swiper6.jpg" alt="">
                 </div>
             </div>
             <div class="swiper-pagination"></div>
@@ -122,7 +108,7 @@
         </div>
       </div>
       <div class="content7">
-        <img src="../assets/img/index/content7.png" alt="">
+        <img src="../assets/img/index/content7.jpg" alt="">
       </div>
       <div class="content8 content2 positionR">
         <img class="content2_txt1 positionA" src="../assets/img/index/index1_txt4.png" alt="">
@@ -179,10 +165,10 @@
           关于我们
         </div>
         <div class="content2_txt3 positionA">
-          购券享福利，集合好商品。
+          专业家电商城
         </div>
         <div class="content2_txt4 positionA">
-          <p>Coupons for welfare, good collection of goods.</p>
+          <p>Professional home appliance mall</p>
         </div>
       </div>
       <div class="content13">
@@ -191,22 +177,21 @@
             <div class="content13_cont_left_txt1 clearfix">
               <img class="fleft" src="../assets/img/index/logo.png" alt="">
               <div class="content13_cont_left_txt1_p fleft">
-                <p>券利集盒</p>
-                <p>太和县泽昂网络科技有限公司</p>
+                <p>吉利商城</p>
+                <p>海南鑫鑫加易科技有限公司</p>
               </div>
             </div>
             <div class="content13_cont_left_txt2 clearfix">
               <img class="fleft" src="../assets/img/index/tel1.png" alt="">
               <div class="content13_cont_left_txt2_p fleft">
-                  <p>E-mail ：zhaoshang@quanlijihe.com</p>
-                  <p>客服电话 ：4000225592</p>
+                  <p>E-mail ：yunxiangshop@163.com</p>
               </div>
             </div>
             <div class="content13_cont_left_txt3 clearfix">
               <img class="fleft" src="../assets/img/index/tel2.png" alt="">
               <div class="content13_cont_left_txt3_p fleft">
-                <p>安徽省</p>
-                <p>安徽省阜阳市太和县旧县镇大通路安徽大汇青创工坊107铺</p>
+                <p>海南省</p>
+                <p>海口国家高新技术产业开发区创业孵化中心A楼</p>
               </div>
             </div>
             <div class="content13_cont_left_txt4 clearfix">
@@ -219,7 +204,7 @@
             </div>
           </div>
           <div class="content13_cont_right fleft">
-            <img src="../assets/img/index/map.png" alt="">
+            <img src="../assets/img/index/map.jpg" alt="">
           </div>
         </div>
       </div>
