@@ -190,8 +190,8 @@
             <div class="content13_cont_left_txt3 clearfix">
               <img class="fleft" src="../assets/img/index/tel2.png" alt="">
               <div class="content13_cont_left_txt3_p fleft">
-                <p>海南省</p>
-                <p>海口国家高新技术产业开发区创业孵化中心A楼</p>
+                <p>福建省</p>
+                <p>平和雅方信息技术服务有限公司</p>
               </div>
             </div>
             <div class="content13_cont_left_txt4 clearfix">
@@ -211,8 +211,8 @@
     </div>
     <div class="footer">
       <div class="footer_cont">
-        <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">皖ICP备20007193号-1</a>
-              www.quanlijihe.com @ 2018-2020 券利集盒版权所有
+        <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">粤ICP备18024266号-1</a>
+              www.xinghuo16.com @ 2020-2021 吉利商城版权所有
       </div>
     </div>
   </div>
