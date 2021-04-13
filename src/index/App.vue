@@ -178,7 +178,7 @@
               <img class="fleft" src="../assets/img/index/logo.png" alt="">
               <div class="content13_cont_left_txt1_p fleft">
                 <p>吉利商城</p>
-                <p>海南鑫鑫加易科技有限公司</p>
+                <p>平和雅方信息技术服务有限公司</p>
               </div>
             </div>
             <div class="content13_cont_left_txt2 clearfix">
