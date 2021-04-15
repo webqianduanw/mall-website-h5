@@ -212,7 +212,7 @@
     <div class="footer">
       <div class="footer_cont">
         <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">粤ICP备18024266号-1</a>
-              www.xinghuo16.com @ 2020-2021 吉利商城版权所有
+              www.yunsharemall.com @ 2020-2021 吉利商城版权所有
       </div>
     </div>
   </div>
