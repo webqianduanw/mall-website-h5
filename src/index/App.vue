@@ -215,7 +215,7 @@
     <div class="footer">
       <div class="footer_cont">
         <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">闽ICP备10124753号</a>
-              www.yizhongshangcheng.com @ 2021 杭州易众商城版权所有
+              www.yizhongmall.com @ 2021 杭州易众商城版权所有
       </div>
     </div>
   </div>
