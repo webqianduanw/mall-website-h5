@@ -181,20 +181,20 @@
               <img class="fleft" src="../assets/img/index/logo.png" alt="">
               <div class="content13_cont_left_txt1_p fleft">
                 <p>易众商城</p>
-                <p>海南鑫鑫加易科技有限公司</p>
+                <p>平和雅方信息技术服务有限公司</p>
               </div>
             </div>
             <div class="content13_cont_left_txt2 clearfix">
               <img class="fleft" src="../assets/img/index/tel1.png" alt="">
               <div class="content13_cont_left_txt2_p fleft">
-                  <p>E-mail ：yunxiangshop@163.com</p>
+                  <p>E-mail ：weimo1188@163.com</p>
               </div>
             </div>
             <div class="content13_cont_left_txt3 clearfix">
               <img class="fleft" src="../assets/img/index/tel2.png" alt="">
               <div class="content13_cont_left_txt3_p fleft">
-                <p>海南省</p>
-                <p>海南鑫鑫加易科技有限公司</p>
+                <p>福建省</p>
+                <p>漳州市平和县小溪镇商贸城25幢100号</p>
               </div>
             </div>
             <div class="content13_cont_left_txt4 clearfix">
@@ -214,7 +214,7 @@
     </div>
     <div class="footer">
       <div class="footer_cont">
-        <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">杭ICP备 18888888号</a>
+        <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">闽ICP备10124753号</a>
               www.yizhongshangcheng.com @ 2021 杭州易众商城版权所有
       </div>
     </div>
