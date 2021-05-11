@@ -4,7 +4,7 @@
       <div class="header-box clearfix">
         <div class="fleft header-box-left" @click="jumpClick(1)">
           <div class="img fleft"><img src="../assets/img/index/logo.png" alt=""></div>
-          <div class="app-name fleft">吉利商城</div>
+          <div class="app-name fleft">易众商城</div>
         </div>
         <div class="fright header-box-right">
           <div class="fleft download positionR">
@@ -17,7 +17,7 @@
       <div class="header-box clearfix">
         <div class="fleft header-box-left">
           <div class="img fleft"><img src="../assets/img/index/logo.png" alt=""></div>
-          <div class="app-name fleft">吉利商城</div>
+          <div class="app-name fleft">易众商城</div>
         </div>
         <div class="fright header-box-right">
           <div class="fleft download" @mouseenter="mouseover" @mouseleave="mouseLeave" @click="goTop">
@@ -32,18 +32,18 @@
     </div>
     <div class="content w">
       <div class="content1">
-        <img src="../assets/img/index/index1_bg1.png" alt="">
+        <img src="../assets/img/index/index1_bg1.jpg" alt="">
       </div>
       <div class="content2 positionR">
         <img class="content2_txt1 positionA" src="../assets/img/index/index1_txt1.png" alt="">
         <div class="content2_txt2 positionA">
-          海量电器
+          海量家居商品
         </div>
         <div class="content2_txt3 positionA">
-          平台商品涵盖厨房家电、个护家电、3C数码等平台精选好货。
+          平台商品涵盖客卧床品、客厅家具、日用家居好物等平台精选好货。
         </div>
         <div class="content2_txt4 positionA">
-          <p>TPlatform products include kitchen appliances, personal care appliances, 3C digital and other platform selected good products.</p>
+          <p>Platform merchandise covers selected goods on the platform such as guest bedroom bedding, living room furniture, and daily household goods.</p>
         </div>
       </div>
       <div class="content3">
@@ -54,6 +54,9 @@
                 </div>
                 <div class="swiper-slide">
                   <img src="../assets/img/index/swiper2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="../assets/img/index/swiper3.jpg" alt="">
                 </div>
             </div>
             <div class="swiper-pagination"></div>
@@ -90,8 +93,8 @@
             </div>
           </div>
           <div class="content5_cont_right fleft clearfix">
-            <img class="fleft" src="../assets/img/index/content5_txt1.png" alt="">
-            <img class="fleft" src="../assets/img/index/content5_txt2.png" alt="">
+            <img class="fleft" src="../assets/img/index/content5_txt1.jpg" alt="">
+            <img class="fleft" src="../assets/img/index/content5_txt2.jpg" alt="">
           </div>
         </div>
       </div>
@@ -125,7 +128,7 @@
       <div class="content9">
         <div class="content9_cont clearfix">
           <div class="content9_cont_left fleft">
-            <img src="../assets/img/index/content9_txt1.png" alt="">
+            <img src="../assets/img/index/content9_txt1.jpg" alt="">
           </div>
           <div class="content9_cont_right fleft clearfix">
             <div class="content9_cont_right_txt1 fleft">
@@ -157,7 +160,7 @@
         </div>
       </div>
       <div class="content11">
-        <img src="../assets/img/index/content11.png" alt="">
+        <img src="../assets/img/index/content11.jpg" alt="">
       </div>
       <div class="content12 content2 positionR">
         <img class="content2_txt1 positionA" src="../assets/img/index/index1_txt6.png" alt="">
@@ -177,8 +180,8 @@
             <div class="content13_cont_left_txt1 clearfix">
               <img class="fleft" src="../assets/img/index/logo.png" alt="">
               <div class="content13_cont_left_txt1_p fleft">
-                <p>吉利商城</p>
-                <p>平和雅方信息技术服务有限公司</p>
+                <p>易众商城</p>
+                <p>海南鑫鑫加易科技有限公司</p>
               </div>
             </div>
             <div class="content13_cont_left_txt2 clearfix">
@@ -190,8 +193,8 @@
             <div class="content13_cont_left_txt3 clearfix">
               <img class="fleft" src="../assets/img/index/tel2.png" alt="">
               <div class="content13_cont_left_txt3_p fleft">
-                <p>福建省</p>
-                <p>平和雅方信息技术服务有限公司</p>
+                <p>海南省</p>
+                <p>海南鑫鑫加易科技有限公司</p>
               </div>
             </div>
             <div class="content13_cont_left_txt4 clearfix">
@@ -211,8 +214,8 @@
     </div>
     <div class="footer">
       <div class="footer_cont">
-        <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">粤ICP备18024266号-1</a>
-              www.yunsharemall.com @ 2020-2021 吉利商城版权所有
+        <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">杭ICP备 18888888号</a>
+              www.yizhongshangcheng.com @ 2021 杭州易众商城版权所有
       </div>
     </div>
   </div>
@@ -377,7 +380,7 @@ body{
     font-size:16px;
     font-family:Source Han Sans CN;
     font-weight:500;
-    color:rgba(220,55,49,1);
+    color:rgba(46, 214, 167, 1);
     z-index: 1;
     left: 0;
     right: 0;
@@ -429,7 +432,7 @@ body{
         height:63px;
         line-height: 63px;
         text-align: center;
-        background:rgba(220,55,49,1);
+        background:rgba(46, 214, 167, 1);
         font-size:26px;
         font-family:Source Han Sans CN;
         font-weight:400;
@@ -504,7 +507,7 @@ body{
           font-size:42px;
           font-family:Source Han Sans CN;
           font-weight:bold;
-          color:rgba(220,55,49,1);
+          color:rgba(46, 214, 167, 1);
         }
         margin-right: 30px;
       }
@@ -527,7 +530,7 @@ body{
         .content9_cont_right_txt3_child2{
           width:340px;
           height:4px;
-          background:rgba(220,55,49,1);
+          background:rgba(46, 214, 167, 1);
           margin-bottom: 42px;
         }
         .content9_cont_right_txt3_child3{
@@ -560,7 +563,7 @@ body{
       width: 524px;
       .content13_cont_left_txt1{
         height: 113px;
-        // background: rgba(220,55,49,1);
+        // background: rgba(46, 214, 167, 1);
         overflow: hidden;
         img{
           width: 75px;
