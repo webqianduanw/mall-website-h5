@@ -4,7 +4,7 @@
       <div class="header-box clearfix">
         <div class="fleft header-box-left" @click="jumpClick(1)">
           <div class="img fleft"><img src="../assets/img/index/logo.png" alt=""></div>
-          <div class="app-name fleft">吉利商城</div>
+          <div class="app-name fleft">缤惠购商城</div>
         </div>
         <div class="fright header-box-right">
           <div class="fleft download positionR">
@@ -17,7 +17,7 @@
       <div class="header-box clearfix">
         <div class="fleft header-box-left">
           <div class="img fleft"><img src="../assets/img/index/logo.png" alt=""></div>
-          <div class="app-name fleft">吉利商城</div>
+          <div class="app-name fleft">缤惠购商城</div>
         </div>
         <div class="fright header-box-right">
           <div class="fleft download" @mouseenter="mouseover" @mouseleave="mouseLeave" @click="goTop">
@@ -171,48 +171,12 @@
           <p>Professional home appliance mall</p>
         </div>
       </div>
-      <div class="content13">
-        <div class="content13_cont clearfix">
-          <div class="content13_cont_left fleft">
-            <div class="content13_cont_left_txt1 clearfix">
-              <img class="fleft" src="../assets/img/index/logo.png" alt="">
-              <div class="content13_cont_left_txt1_p fleft">
-                <p>吉利商城</p>
-                <p>平和雅方信息技术服务有限公司</p>
-              </div>
-            </div>
-            <div class="content13_cont_left_txt2 clearfix">
-              <img class="fleft" src="../assets/img/index/tel1.png" alt="">
-              <div class="content13_cont_left_txt2_p fleft">
-                  <p>E-mail ：yunxiangshop@163.com</p>
-              </div>
-            </div>
-            <div class="content13_cont_left_txt3 clearfix">
-              <img class="fleft" src="../assets/img/index/tel2.png" alt="">
-              <div class="content13_cont_left_txt3_p fleft">
-                <p>福建省</p>
-                <p>平和雅方信息技术服务有限公司</p>
-              </div>
-            </div>
-            <div class="content13_cont_left_txt4 clearfix">
-              <img class="fleft" src="../assets/img/index/tel3.png" alt="">
-              <div class="content13_cont_left_txt4_p fleft">
-                <p>工作时间</p>
-                <p>工作日：9：00-22：00</p>
-                <p>周末及节假日：9：00-21：00</p>
-              </div>
-            </div>
-          </div>
-          <div class="content13_cont_right fleft">
-            <img src="../assets/img/index/map.jpg" alt="">
-          </div>
-        </div>
-      </div>
+
     </div>
     <div class="footer">
       <div class="footer_cont">
-        <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">粤ICP备18024266号-1</a>
-              www.yunsharemall.com @ 2020-2021 吉利商城版权所有
+        <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">杭ICP备 34687532号-1</a>
+              http://www.af.yunsharemall.com/ @ 2021 缤惠购商城版权所有
       </div>
     </div>
   </div>
