@@ -21,7 +21,7 @@
         </div>
         <div class="fright header-box-right">
           <div class="fleft download" @mouseenter="mouseover" @mouseleave="mouseLeave" @click="goTop">
-            <a href="javascript:;">下载App</a>
+            <!-- <a href="javascript:;">下载App</a> -->
             <img class="ewmcode positionA" ref="ewmcode" style="display:none;" src="../assets/img/ewmcode.png" alt="">
           </div>
           <!-- <div class="fleft about">
