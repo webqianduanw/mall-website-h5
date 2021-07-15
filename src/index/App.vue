@@ -2,9 +2,9 @@
   <div class="index">
     <div class="header" ref="header" style="display:none;">
       <div class="header-box clearfix">
-        <div class="fleft header-box-left" @click="jumpClick(1)">
+        <div class="fleft header-box-left">
           <div class="img fleft"><img src="../assets/img/index/logo.png" alt=""></div>
-          <div class="app-name fleft">核桃返利</div>
+          <div class="app-name fleft">Teenpatti club</div>
         </div>
         <div class="fright header-box-right">
           <div class="fleft download positionR">
@@ -17,23 +17,24 @@
       <div class="header-box clearfix">
         <div class="fleft header-box-left">
           <div class="img fleft"><img src="../assets/img/index/logo.png" alt=""></div>
-          <div class="app-name fleft">核桃返利</div>
+          <div class="app-name fleft">Teenpatti club</div>
         </div>
         <div class="fright header-box-right">
           <div class="fleft download" @mouseenter="mouseover" @mouseleave="mouseLeave" @click="goTop">
             <!-- <a href="javascript:;">下载App</a> -->
             <img class="ewmcode positionA" ref="ewmcode" style="display:none;" src="../assets/img/ewmcode.png" alt="">
           </div>
-          <div class="fleft about">
-            购物返利·一站式商城·全场包邮
+          <div class="fleft about" @click="jumpClick(1)">
+            <div class="fleft_child1">
+              Available on:
+            </div>
+            <img class="fleft_child2" src="../assets/img/index/playStore_btn.png" alt="">
           </div>
         </div>
       </div>
     </div>
     <div class="content w">
-      <div class="content1">
-        <img src="../assets/img/index/index1_bg1.jpg" alt="">
-      </div>
+
       <div class="content3">
         <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -46,53 +47,33 @@
                  <div class="swiper-slide">
                   <img src="../assets/img/index/swiper3.jpg" alt="">
                 </div>
-                 <div class="swiper-slide">
-                  <img src="../assets/img/index/swiper4.jpg" alt="">
-                </div>
-                 <div class="swiper-slide">
-                  <img src="../assets/img/index/swiper5.jpg" alt="">
-                </div>
+
             </div>
             <div class="swiper-pagination"></div>
         </div>
       </div>
-      <div class="content7">
-        <img src="../assets/img/index/content7.jpg" alt="">
+      <div class="content4" @click="jumpClick(1)">
+        <img src="../assets/img/index/download_bg.png" alt="">
       </div>
-      <div class="content9">
-        <div class="content9_cont">
-          <div class="content9_cont_left">
-            <div class="content9_cont_left_txt1">
-              公司：郴州市昌瑞贸易有限公司
-            </div>
-            <div class="content9_cont_left_txt2">
-              地址：湖南省郴州市嘉禾县珠泉镇中伟神农步行街4栋2单元501室
-            </div>
-            <div class="content9_cont_left_txt3">
-              邮箱：q13396009274@163.com
-            </div>
-          </div>
-          <div class="content9_cont_right">
-            <div class="content9_cont_right_txt1">
-              客服联系方式(APP内在线咨询)
-            </div>
-            <div class="content9_cont_right_txt2">
-               客服工作时间
-            </div>
-            <div class="content9_cont_right_txt3">
-               工作日：9：00-22：00
-            </div>
-            <div class="content9_cont_right_txt4">
-               周末及节假日：9：00-21：00
-            </div>
-          </div>
-        </div>
+      <div class="content7">
+        <img src="../assets/img/index/index_bg5.jpg" alt="">
+      </div>
+      <div class="content7">
+        <img src="../assets/img/index/index_bg6.jpg" alt="">
+      </div>
+      <div class="content7">
+        <img src="../assets/img/index/index_bg7.jpg" alt="">
       </div>
     </div>
     <div class="footer">
       <div class="footer_cont">
-        <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">湘ICP备2021004451号</a>
-              http://www.shuishakeji.com/ @ 2021 核桃返利版权所有
+        <div class="footer_cont_child1">We are social</div>
+        <div class="footer_cont_child2">Join our Teen Patti community and share your experience with other users.</div>
+        <div class="footer_cont_child3" @click="jumpClick(2)">
+          <img src="../assets/img/index/fb.png" alt="">
+        </div>
+        <div class="footer_cont_child4">Copyright © 2020 - 2021 Teenpatti club, Inc.</div>
+        <div class="footer_cont_child5">No portion of the Octro, Inc. WWW sites, which includes this site, may be copied or redistributed in any manner without the express written consent of Teenpatti club, Inc.</div>
       </div>
     </div>
   </div>
@@ -118,11 +99,12 @@ export default {
     },
     methods: {
         jumpClick(id) {
-            if (id === 1) {
-                this.swiper.slideTo(0);
-            } else if (id === 2) {
+            if (+id === 1) {
+                window.location.href="https://play.google.com/store/apps/details?id=com.teempatti.club";
+
+            } else if (+id === 2) {
                 // this.$router.push('/about');
-                window.location.href="/pc/aboutUs.html";
+                window.location.href="https://www.facebook.com/Teenpatti-club-108741918122845";
             }
         },
         goTop(){
@@ -173,31 +155,32 @@ body{
   // position: fixed;
   // z-index: 10;
   // top: 0;
-  background:#ffffff;
+  background:#3E0968;
   width: 100%;
-  height: 100px;
+  height: 160px;
 }
 .header-box{
   width: 1200px;
   margin: 0 auto;
-  height: 100px;
+  height: 160px;
   .header-box-left{
     cursor: pointer;
     height: 100%;
     .img{
-      height: 62px;
-      width: 62px;
+      height: 75px;
+      width: 75px;
       img{
-        margin-top: 18px;
+        margin-top: 44px;
         width: 100%;
       }
     }
     .app-name{
       height: 100%;
-      line-height: 100px;
-      font-size:18px;
-      font-weight:bold;
-      color:#FF7002;
+      line-height: 160px;
+      font-size: 35px;
+      font-family: Adobe Heiti Std;
+      font-weight: bold;
+      color: #FFFFFF;
       margin-left: 15px;
     }
 
@@ -213,10 +196,15 @@ body{
 
     }
     .about{
-      line-height: 100px;
-      font-size:18px;
-      font-weight:400;
-      color:rgba(102,102,102,1);
+      font-size: 20px;
+      font-family: Adobe Heiti Std;
+      font-weight: bold;
+      color: #FFFFFF;
+      cursor: pointer;
+      .fleft_child1{
+        text-align: right;
+        padding-top: 24px;
+      }
     }
     .ewmcode{
       z-index: 111;
@@ -279,6 +267,7 @@ body{
 }
 .content3{
   width: 100%;
+  background: #3E0968;
   .swiper-container{
     height: 100%;
     .swiper-slide{
@@ -296,6 +285,16 @@ body{
       }
     }
   }
+}
+.content4{
+  width: 100%;
+  background: #3E0968;
+  cursor: pointer;
+    img{
+      width: 100%;
+    }
+
+
 }
 .content5{
   height: 586px;
@@ -357,6 +356,7 @@ body{
   }
 }
 .content7{
+  background: #3E0968;
   img{
     width: 100%;
     height: auto;
@@ -523,17 +523,53 @@ body{
 .footer{
   width: 100%;
   margin: 0 auto;
-  background:rgba(22,28,32,1);
-  height: 90px;
+  background:#3E0968;
+  height: 444px;
   .footer_cont{
     width: 1200px;
     margin: 0 auto;
     text-align: center;
-    line-height: 90px;
     font-size:14px;
     font-family:Microsoft YaHei;
     font-weight:400;
     color:rgba(102,102,102,1);
+      .footer_cont_child1{
+        font-size: 38px;
+        font-family: Alfredo Heavy;
+        font-weight: 400;
+        color: #F7E85B;
+        line-height: 48px;
+        padding-top: 25px;
+      }
+      .footer_cont_child2{
+        font-size: 28px;
+        font-family: Adobe Heiti Std;
+        font-weight: normal;
+        color: #FFFFFF;
+        padding-top: 25px;
+      }
+      .footer_cont_child3{
+        padding-top: 25px;
+        cursor: pointer;
+        img{
+          width: 123px;
+          height: 121px;
+        }
+      }
+      .footer_cont_child4{
+        font-size: 22px;
+        font-family: Adobe Heiti Std;
+        font-weight: normal;
+        color: #FFFFFF;
+        padding-top: 30px;
+      }
+      .footer_cont_child5{
+        font-size: 15px;
+        font-family: Adobe Heiti Std;
+        font-weight: normal;
+        color: #FFFFFF;
+        padding-top: 20px;
+      }
       a{
         font-size:14px;
         font-family:Microsoft YaHei;
