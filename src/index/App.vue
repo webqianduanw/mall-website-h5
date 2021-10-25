@@ -4,7 +4,7 @@
       <div class="header-box clearfix">
         <div class="fleft header-box-left" @click="jumpClick(1)">
           <div class="img fleft"><img src="../assets/img/index/logo.png" alt=""></div>
-          <div class="app-name fleft">核桃返利</div>
+          <div class="app-name fleft">贝福优选</div>
         </div>
         <div class="fright header-box-right">
           <div class="fleft download positionR">
@@ -17,7 +17,7 @@
       <div class="header-box clearfix">
         <div class="fleft header-box-left">
           <div class="img fleft"><img src="../assets/img/index/logo.png" alt=""></div>
-          <div class="app-name fleft">核桃返利</div>
+          <div class="app-name fleft">贝福优选</div>
         </div>
         <div class="fright header-box-right">
           <div class="fleft download" @mouseenter="mouseover" @mouseleave="mouseLeave" @click="goTop">
@@ -25,51 +25,48 @@
             <img class="ewmcode positionA" ref="ewmcode" style="display:none;" src="../assets/img/ewmcode.png" alt="">
           </div>
           <div class="fleft about">
-            购物返利·一站式商城·全场包邮
+            贝福优选·品文玩赠好礼
           </div>
         </div>
       </div>
     </div>
     <div class="content w">
-      <div class="content1">
-        <img src="../assets/img/index/index1_bg1.jpg" alt="">
-      </div>
+
       <div class="content3">
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="../assets/img/index/swiper1.jpg" alt="">
+                  <img src="../assets/img/index/swiper1.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="../assets/img/index/swiper2.jpg" alt="">
+                  <img src="../assets/img/index/swiper2.png" alt="">
                 </div>
                  <div class="swiper-slide">
-                  <img src="../assets/img/index/swiper3.jpg" alt="">
+                  <img src="../assets/img/index/swiper3.png" alt="">
                 </div>
-                 <div class="swiper-slide">
-                  <img src="../assets/img/index/swiper4.jpg" alt="">
-                </div>
-                 <div class="swiper-slide">
-                  <img src="../assets/img/index/swiper5.jpg" alt="">
-                </div>
+
             </div>
             <div class="swiper-pagination"></div>
         </div>
       </div>
+      <div class="content1">
+        <img src="../assets/img/index/index1_bg1.jpg" alt="">
+      </div>
       <div class="content7">
         <img src="../assets/img/index/content7.jpg" alt="">
       </div>
+
       <div class="content9">
         <div class="content9_cont">
           <div class="content9_cont_left">
             <div class="content9_cont_left_txt1">
-              公司：郴州市昌瑞贸易有限公司
+              公司：惠州冉旭科技有限公司
             </div>
             <div class="content9_cont_left_txt2">
-              地址：湖南省郴州市嘉禾县珠泉镇中伟神农步行街4栋2单元501室
+              地址：惠州市惠城区河南岸螺子湖南街公园1号物联网孵化基地4楼Hec735
             </div>
             <div class="content9_cont_left_txt3">
-              邮箱：q13396009274@163.com
+              邮箱：bfyxkf@126.com
             </div>
           </div>
           <div class="content9_cont_right">
@@ -80,7 +77,7 @@
                客服工作时间
             </div>
             <div class="content9_cont_right_txt3">
-               工作日：9：00-22：00
+               工作日：9：00-21：00
             </div>
             <div class="content9_cont_right_txt4">
                周末及节假日：9：00-21：00
@@ -91,8 +88,8 @@
     </div>
     <div class="footer">
       <div class="footer_cont">
-        <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">湘ICP备2021004451号</a>
-              http://www.shuishakeji.com/ @ 2021 核桃返利版权所有
+        <a href="http://beian.miit.gov.cn/?spm=a2c4g.11186623.7y9jhqsfz.111.26b47243MaN2zM" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.111">粤ICP备2021121729号</a>
+              http://www.walnutsgame.com @ 2021 贝福优选所有
       </div>
     </div>
   </div>
